@@ -16,8 +16,15 @@ public class AddString {
 		
 		
 	}
+	
 	private static int sum(String[] num) {
-		return Integer.parseInt(num[0])+Integer.parseInt(num[1]);
+		int add=0;
+		int l=num.length;
+		for(int i=0; i<l; i++) {
+			add+=Integer.parseInt(num[i]);
+		}
+		
+		return add;
 	}
 	
 	private static boolean isEmpty(String string) {
