@@ -2,35 +2,36 @@
 <testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-06-06T06:16:33Z" name="Default suite" finished-at="2020-06-06T06:16:33Z" duration-ms="95">
+  <suite started-at="2020-06-06T06:25:03Z" name="Default suite" finished-at="2020-06-06T06:25:03Z" duration-ms="81">
     <groups>
     </groups>
-    <test started-at="2020-06-06T06:16:33Z" name="Default test" finished-at="2020-06-06T06:16:33Z" duration-ms="95">
+    <test started-at="2020-06-06T06:25:03Z" name="Default test" finished-at="2020-06-06T06:25:03Z" duration-ms="81">
       <class name="TestCalculator">
-        <test-method is-config="true" signature="init()[pri:0, instance:TestCalculator@1a052a00]" started-at="2020-06-06T06:16:33Z" name="init" finished-at="2020-06-06T06:16:33Z" duration-ms="14" status="PASS">
+        <test-method is-config="true" signature="init()[pri:0, instance:TestCalculator@1a052a00]" started-at="2020-06-06T06:25:03Z" name="init" finished-at="2020-06-06T06:25:03Z" duration-ms="12" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method signature="IgnoreNumGreaterThan1000()[pri:0, instance:TestCalculator@1a052a00]" started-at="2020-06-06T06:16:33Z" name="IgnoreNumGreaterThan1000" finished-at="2020-06-06T06:16:33Z" duration-ms="13" status="PASS">
+        <test-method signature="IgnoreNumGreaterThan1000()[pri:0, instance:TestCalculator@1a052a00]" started-at="2020-06-06T06:25:03Z" name="IgnoreNumGreaterThan1000" finished-at="2020-06-06T06:25:03Z" duration-ms="10" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- IgnoreNumGreaterThan1000 -->
-        <test-method signature="addThreeNUmberWithDelimeterReturnSum()[pri:0, instance:TestCalculator@1a052a00]" started-at="2020-06-06T06:16:33Z" name="addThreeNUmberWithDelimeterReturnSum" finished-at="2020-06-06T06:16:33Z" duration-ms="3" status="PASS">
+        <test-method signature="addThreeNUmberWithDelimeterReturnSum()[pri:0, instance:TestCalculator@1a052a00]" started-at="2020-06-06T06:25:03Z" name="addThreeNUmberWithDelimeterReturnSum" finished-at="2020-06-06T06:25:03Z" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addThreeNUmberWithDelimeterReturnSum -->
-        <test-method signature="emptyStringReturnZero()[pri:0, instance:TestCalculator@1a052a00]" started-at="2020-06-06T06:16:33Z" name="emptyStringReturnZero" finished-at="2020-06-06T06:16:33Z" duration-ms="2" status="PASS">
+        <test-method signature="emptyStringReturnZero()[pri:0, instance:TestCalculator@1a052a00]" started-at="2020-06-06T06:25:03Z" name="emptyStringReturnZero" finished-at="2020-06-06T06:25:03Z" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- emptyStringReturnZero -->
-        <test-method signature="negativeException()[pri:0, instance:TestCalculator@1a052a00]" started-at="2020-06-06T06:16:33Z" name="negativeException" finished-at="2020-06-06T06:16:33Z" duration-ms="3" status="PASS">
+        <test-method signature="negativeException()[pri:0, instance:TestCalculator@1a052a00]" started-at="2020-06-06T06:25:03Z" name="negativeException" finished-at="2020-06-06T06:25:03Z" duration-ms="3" status="PASS">
           <exception class="java.lang.Exception">
             <message>
               <![CDATA[Negative string input,please use positive values]]>
             </message>
             <full-stacktrace>
               <![CDATA[java.lang.Exception: Negative string input,please use positive values
-at AddString.sum(AddString.java:30)
+at AddString.findeErrorInputs(AddString.java:37)
+at AddString.sum(AddString.java:21)
 at AddString.addString(AddString.java:13)
 at TestCalculator.negativeException(TestCalculator.java:32)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -64,15 +65,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- negativeException -->
-        <test-method signature="singleValueReply()[pri:0, instance:TestCalculator@1a052a00]" started-at="2020-06-06T06:16:33Z" name="singleValueReply" finished-at="2020-06-06T06:16:33Z" duration-ms="3" status="PASS">
+        <test-method signature="singleValueReply()[pri:0, instance:TestCalculator@1a052a00]" started-at="2020-06-06T06:25:03Z" name="singleValueReply" finished-at="2020-06-06T06:25:03Z" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- singleValueReply -->
-        <test-method signature="twoNumbersCommaDelimeterReturnSum()[pri:0, instance:TestCalculator@1a052a00]" started-at="2020-06-06T06:16:33Z" name="twoNumbersCommaDelimeterReturnSum" finished-at="2020-06-06T06:16:33Z" duration-ms="3" status="PASS">
+        <test-method signature="twoNumbersCommaDelimeterReturnSum()[pri:0, instance:TestCalculator@1a052a00]" started-at="2020-06-06T06:25:03Z" name="twoNumbersCommaDelimeterReturnSum" finished-at="2020-06-06T06:25:03Z" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- twoNumbersCommaDelimeterReturnSum -->
-        <test-method signature="twonumbersLinechnageDelimeterReturnsum()[pri:0, instance:TestCalculator@1a052a00]" started-at="2020-06-06T06:16:33Z" name="twonumbersLinechnageDelimeterReturnsum" finished-at="2020-06-06T06:16:33Z" duration-ms="2" status="PASS">
+        <test-method signature="twonumbersLinechnageDelimeterReturnsum()[pri:0, instance:TestCalculator@1a052a00]" started-at="2020-06-06T06:25:03Z" name="twonumbersLinechnageDelimeterReturnsum" finished-at="2020-06-06T06:25:03Z" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- twonumbersLinechnageDelimeterReturnsum -->

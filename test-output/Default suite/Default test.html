@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>7/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Jun 06 11:46:33 IST 2020</td>
+<td>Started on:</td><td>Sat Jun 06 11:55:03 IST 2020</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (95 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (81 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -92,7 +92,8 @@ function toggleAllBoxes() {
 <tr>
 <td title='TestCalculator.negativeException()'><b>negativeException</b><br>Test class: TestCalculator</td>
 <td><div><pre>java.lang.Exception: Negative string input,please use positive values
-	at AddString.sum(AddString.java:30)
+	at AddString.findeErrorInputs(AddString.java:37)
+	at AddString.sum(AddString.java:21)
 	at AddString.addString(AddString.java:13)
 	at TestCalculator.negativeException(TestCalculator.java:32)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -122,7 +123,8 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div><a href='#' onClick='toggleBox("stack-trace521081105", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
 <div class='stack-trace' id='stack-trace521081105'><pre>java.lang.Exception: Negative string input,please use positive values
-	at AddString.sum(AddString.java:30)
+	at AddString.findeErrorInputs(AddString.java:37)
+	at AddString.sum(AddString.java:21)
 	at AddString.addString(AddString.java:13)
 	at TestCalculator.negativeException(TestCalculator.java:32)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)

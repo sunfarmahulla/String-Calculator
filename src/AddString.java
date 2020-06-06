@@ -18,6 +18,13 @@ public class AddString {
 	}
 	
 	private static int sum(String[] num) throws Exception {
+		findeErrorInputs(num);
+		
+		return CalculatedValues(num);
+		
+	}
+	private static void findeErrorInputs(String[] num) throws Exception {
+		
 		int l=num.length;
 		int count=0;
 		for(int i=0; i<l; i++) {
@@ -33,7 +40,11 @@ public class AddString {
 			}
 			
 		}
+	} 
+	private static int CalculatedValues(String[] num) {
+		
 		int add=0;
+		int l=num.length;
 		for(int i=0; i<l; i++) {
 			if(stringToInt(num[i])>1000) {
 				continue;
