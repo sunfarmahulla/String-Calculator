@@ -19,16 +19,27 @@ public class AddString {
 	
 	private static int sum(String[] num) throws Exception {
 		int l=num.length;
+		int count=0;
 		for(int i=0; i<l; i++) {
-			if(Integer.parseInt(num[i])< 0) {
-				throw new Exception("Negative string input");
+			if(stringToInt(num[i])< 0) {
+				count++;
 			}
 		}
+		if(count>1) {
+			try {
+				throw new Exception("Negative string input,please use positive values");
+			}catch(java.util.InputMismatchException e) {
+				System.out.println(e.getMessage());
+			}
+			
+			
+		}
+		
+		
 		int add=0;
 		for(int i=0; i<l; i++) {
 			add+=Integer.parseInt(num[i]);
 		}
-		
 		return add;
 	}
 	
@@ -40,6 +51,7 @@ public class AddString {
 	{
 		return Integer.parseInt(string);
 	}
+	
 
 	
 	

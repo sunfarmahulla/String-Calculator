@@ -29,7 +29,7 @@ public class TestCalculator {
 	}
 	@Test(expectedExceptions=Exception.class)
 	public void negativeException() throws Exception{
-		AddString.addString("-1");
+		AddString.addString("-1,-2");
 	}
 	
 }
