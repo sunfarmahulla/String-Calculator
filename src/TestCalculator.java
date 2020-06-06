@@ -28,5 +28,9 @@ public class TestCalculator {
 	public void addThreeNUmberWithDelimeterReturnSum() {
 		assertEquals(AddString.addString("1\n2,3"),6);
 	}
+	@Test(expectedExceptions=Exception.class)
+	public void negativeException() throws Exception{
+		AddString.addString("-1");
+	}
 	
 }

@@ -5,7 +5,7 @@
     <classes>
       <class name="TestCalculator">
         <methods>
-          <include name="addThreeNUmberWithDelimeterReturnSum"/>
+          <include name="negativeException"/>
           <include name="init"/>
         </methods>
       </class> <!-- TestCalculator -->
