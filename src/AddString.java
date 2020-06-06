@@ -32,12 +32,12 @@ public class AddString {
 				System.out.println(e.getMessage());
 			}
 			
-			
 		}
-		
-		
 		int add=0;
 		for(int i=0; i<l; i++) {
+			if(stringToInt(num[i])>1000) {
+				continue;
+			}
 			add+=Integer.parseInt(num[i]);
 		}
 		return add;

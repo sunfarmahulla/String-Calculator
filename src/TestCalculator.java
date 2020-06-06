@@ -31,5 +31,7 @@ public class TestCalculator {
 	public void negativeException() throws Exception{
 		AddString.addString("-1,-2");
 	}
-	
+	public void IgnoreNumGreaterThan1000() throws Exception{
+		assertEquals(AddString.addString("10,10,1001"),20);
+	}
 }
