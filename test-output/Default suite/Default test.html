@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>5/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>6/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Jun 06 10:32:25 IST 2020</td>
+<td>Started on:</td><td>Sat Jun 06 10:45:35 IST 2020</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (80 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (75 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,20 +67,35 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<td title='TestCalculator.addThreeNUmberWithDelimeterReturnSum()'><b>addThreeNUmberWithDelimeterReturnSum</b><br>Test class: TestCalculator</td>
+<td></td>
+<td>0</td>
+<td>TestCalculator@770c2e6b</td></tr>
+<tr>
+<td title='TestCalculator.emptyStringReturnZero()'><b>emptyStringReturnZero</b><br>Test class: TestCalculator</td>
+<td></td>
+<td>0</td>
+<td>TestCalculator@770c2e6b</td></tr>
+<tr>
 <td title='TestCalculator.negativeException()'><b>negativeException</b><br>Test class: TestCalculator</td>
-<td><div><pre>org.testng.TestException: 
-Method TestCalculator.negativeException()[pri:0, instance:TestCalculator@770c2e6b] should have thrown an exception of type class java.lang.Exception
-	at org.testng.internal.ExpectedExceptionsHolder.noException(ExpectedExceptionsHolder.java:80)
-	at org.testng.internal.Invoker.considerExceptions(Invoker.java:1140)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:615)
+<td><div><pre>java.lang.Exception: Negative string input
+	at AddString.sum(AddString.java:24)
+	at AddString.addString(AddString.java:13)
+	at TestCalculator.negativeException(TestCalculator.java:32)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
 	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
@@ -101,11 +116,16 @@ Method TestCalculator.negativeException()[pri:0, instance:TestCalculator@770c2e6
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div><a href='#' onClick='toggleBox("stack-trace2005733474", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2005733474'><pre>org.testng.TestException: 
-Method TestCalculator.negativeException()[pri:0, instance:TestCalculator@770c2e6b] should have thrown an exception of type class java.lang.Exception
-	at org.testng.internal.ExpectedExceptionsHolder.noException(ExpectedExceptionsHolder.java:80)
-	at org.testng.internal.Invoker.considerExceptions(Invoker.java:1140)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:615)
+<div class='stack-trace' id='stack-trace2005733474'><pre>java.lang.Exception: Negative string input
+	at AddString.sum(AddString.java:24)
+	at AddString.addString(AddString.java:13)
+	at TestCalculator.negativeException(TestCalculator.java:32)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
 	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
@@ -126,24 +146,6 @@ Method TestCalculator.negativeException()[pri:0, instance:TestCalculator@770c2e6
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>0</td>
-<td>TestCalculator@770c2e6b</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='TestCalculator.addThreeNUmberWithDelimeterReturnSum()'><b>addThreeNUmberWithDelimeterReturnSum</b><br>Test class: TestCalculator</td>
-<td></td>
-<td>0</td>
-<td>TestCalculator@770c2e6b</td></tr>
-<tr>
-<td title='TestCalculator.emptyStringReturnZero()'><b>emptyStringReturnZero</b><br>Test class: TestCalculator</td>
-<td></td>
 <td>0</td>
 <td>TestCalculator@770c2e6b</td></tr>
 <tr>

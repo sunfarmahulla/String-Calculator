@@ -6,26 +6,25 @@ import org.testng.annotations.Test;
 @Test
 public class TestCalculator {
 	
-	private AddString addString;
 	@BeforeTest
 	public void init()
 	{
-		addString = new AddString();
+		new AddString();
 	}
 	
-	public void emptyStringReturnZero() {
+	public void emptyStringReturnZero() throws Exception {
 		assertEquals(AddString.addString(""),0);
 	}
-	public void singleValueReply() {
+	public void singleValueReply() throws Exception {
 		assertEquals(AddString.addString("1"),1);
 	}
-	public void twoNumbersCommaDelimeterReturnSum() {
+	public void twoNumbersCommaDelimeterReturnSum() throws Exception {
 		assertEquals(AddString.addString("1,2"),3);
 	}
-	public void twonumbersLinechnageDelimeterReturnsum() {
+	public void twonumbersLinechnageDelimeterReturnsum() throws Exception {
 		assertEquals(AddString.addString("1\n2"),3);
 	}
-	public void addThreeNUmberWithDelimeterReturnSum() {
+	public void addThreeNUmberWithDelimeterReturnSum() throws Exception {
 		assertEquals(AddString.addString("1\n2,3"),6);
 	}
 	@Test(expectedExceptions=Exception.class)
