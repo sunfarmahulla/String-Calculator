@@ -1,7 +1,12 @@
 
 public class AddString {
 	public static int addString(String string) {
-		return 0;
+		if(string.isEmpty()) {
+			return 0;
+		}
+		return Integer.parseInt(string);
 	}
+
+	
 	
 }
