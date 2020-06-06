@@ -22,6 +22,8 @@ public class TestCalculator {
 	public void twoNumbersCommaDelimeterReturnSum() {
 		assertEquals(AddString.addString("1,2"),3);
 	}
-	
+	public void twonumbersLinechnageDelimeterReturnsum() {
+		assertEquals(AddString.addString("1\n2"),3);
+	}
 	
 }

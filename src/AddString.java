@@ -1,7 +1,7 @@
 
 public class AddString {
 	public static int addString(String string) {
-		String[] num= string.split(",");
+		String[] num= string.split(",|\n");
 		if(isEmpty(string)) {
 			return 0;
 		}
