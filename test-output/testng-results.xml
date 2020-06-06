@@ -2,32 +2,32 @@
 <testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-06-06T04:41:08Z" name="Default suite" finished-at="2020-06-06T04:41:08Z" duration-ms="78">
+  <suite started-at="2020-06-06T04:55:58Z" name="Default suite" finished-at="2020-06-06T04:55:58Z" duration-ms="66">
     <groups>
     </groups>
-    <test started-at="2020-06-06T04:41:08Z" name="Default test" finished-at="2020-06-06T04:41:08Z" duration-ms="78">
+    <test started-at="2020-06-06T04:55:58Z" name="Default test" finished-at="2020-06-06T04:55:58Z" duration-ms="66">
       <class name="TestCalculator">
-        <test-method is-config="true" signature="init()[pri:0, instance:TestCalculator@c540f5a]" started-at="2020-06-06T04:41:08Z" name="init" finished-at="2020-06-06T04:41:08Z" duration-ms="13" status="PASS">
+        <test-method is-config="true" signature="init()[pri:0, instance:TestCalculator@c540f5a]" started-at="2020-06-06T04:55:58Z" name="init" finished-at="2020-06-06T04:55:58Z" duration-ms="12" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method signature="addThreeNUmberWithDelimeterReturnSum()[pri:0, instance:TestCalculator@c540f5a]" started-at="2020-06-06T04:41:08Z" name="addThreeNUmberWithDelimeterReturnSum" finished-at="2020-06-06T04:41:08Z" duration-ms="13" status="PASS">
+        <test-method signature="addThreeNUmberWithDelimeterReturnSum()[pri:0, instance:TestCalculator@c540f5a]" started-at="2020-06-06T04:55:58Z" name="addThreeNUmberWithDelimeterReturnSum" finished-at="2020-06-06T04:55:58Z" duration-ms="11" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addThreeNUmberWithDelimeterReturnSum -->
-        <test-method signature="emptyStringReturnZero()[pri:0, instance:TestCalculator@c540f5a]" started-at="2020-06-06T04:41:08Z" name="emptyStringReturnZero" finished-at="2020-06-06T04:41:08Z" duration-ms="3" status="PASS">
+        <test-method signature="emptyStringReturnZero()[pri:0, instance:TestCalculator@c540f5a]" started-at="2020-06-06T04:55:58Z" name="emptyStringReturnZero" finished-at="2020-06-06T04:55:58Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- emptyStringReturnZero -->
-        <test-method signature="singleValueReply()[pri:0, instance:TestCalculator@c540f5a]" started-at="2020-06-06T04:41:08Z" name="singleValueReply" finished-at="2020-06-06T04:41:08Z" duration-ms="2" status="PASS">
+        <test-method signature="singleValueReply()[pri:0, instance:TestCalculator@c540f5a]" started-at="2020-06-06T04:55:58Z" name="singleValueReply" finished-at="2020-06-06T04:55:58Z" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- singleValueReply -->
-        <test-method signature="twoNumbersCommaDelimeterReturnSum()[pri:0, instance:TestCalculator@c540f5a]" started-at="2020-06-06T04:41:08Z" name="twoNumbersCommaDelimeterReturnSum" finished-at="2020-06-06T04:41:08Z" duration-ms="2" status="PASS">
+        <test-method signature="twoNumbersCommaDelimeterReturnSum()[pri:0, instance:TestCalculator@c540f5a]" started-at="2020-06-06T04:55:58Z" name="twoNumbersCommaDelimeterReturnSum" finished-at="2020-06-06T04:55:58Z" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- twoNumbersCommaDelimeterReturnSum -->
-        <test-method signature="twonumbersLinechnageDelimeterReturnsum()[pri:0, instance:TestCalculator@c540f5a]" started-at="2020-06-06T04:41:08Z" name="twonumbersLinechnageDelimeterReturnsum" finished-at="2020-06-06T04:41:08Z" duration-ms="3" status="PASS">
+        <test-method signature="twonumbersLinechnageDelimeterReturnsum()[pri:0, instance:TestCalculator@c540f5a]" started-at="2020-06-06T04:55:58Z" name="twonumbersLinechnageDelimeterReturnsum" finished-at="2020-06-06T04:55:58Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- twonumbersLinechnageDelimeterReturnsum -->

@@ -26,7 +26,7 @@ public class TestCalculator {
 		assertEquals(AddString.addString("1\n2"),3);
 	}
 	public void addThreeNUmberWithDelimeterReturnSum() {
-		assertEquals(AddString.addString("1,2,3"),6);
+		assertEquals(AddString.addString("1\n2,3"),6);
 	}
 	
 }
