@@ -5,7 +5,7 @@
     <classes>
       <class name="TestCalculator">
         <methods>
-          <include name="singleValueReply"/>
+          <include name="twoNumbersCommaDelimeterReturnSum"/>
           <include name="init"/>
         </methods>
       </class> <!-- TestCalculator -->

@@ -19,6 +19,9 @@ public class TestCalculator {
 	public void singleValueReply() {
 		assertEquals(AddString.addString("1"),1);
 	}
+	public void twoNumbersCommaDelimeterReturnSum() {
+		assertEquals(AddString.addString("1,2"),3);
+	}
 	
 	
 }

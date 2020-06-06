@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -108,6 +108,11 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Default_suite" title="TestCalculator" class="method navigator-link" hash-for-method="singleValueReply">singleValueReply</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="TestCalculator" class="method navigator-link" hash-for-method="twoNumbersCommaDelimeterReturnSum">twoNumbersCommaDelimeterReturnSum</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -142,12 +147,19 @@
                   <span class="method-name">singleValueReply</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="twoNumbersCommaDelimeterReturnSum">
+                  </a> <!-- twoNumbersCommaDelimeterReturnSum -->
+                  <span class="method-name">twoNumbersCommaDelimeterReturnSum</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Default_suite-class-passed -->
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/tmp/testng-eclipse--1297456259/testng-customsuite.xml</span>
+            <span class="header-content">/tmp/testng-eclipse--1746306104/testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -196,20 +208,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'emptyStringReturnZero')
 data.setCell(0, 2, 'TestCalculator')
-data.setCell(0, 3, 11);
+data.setCell(0, 3, 9);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'singleValueReply')
 data.setCell(1, 2, 'TestCalculator')
-data.setCell(1, 3, 2);
+data.setCell(1, 3, 3);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'twoNumbersCommaDelimeterReturnSum')
+data.setCell(2, 2, 'TestCalculator')
+data.setCell(2, 3, 2);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 13 ms</span>
+              <span class="suite-total-time">Total running time: 14 ms</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -242,11 +258,15 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">emptyStringReturnZero</span>
-                <span class="method-start">29 ms</span>
+                <span class="method-start">32 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">singleValueReply</span>
-                <span class="method-start">43 ms</span>
+                <span class="method-start">45 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">twoNumbersCommaDelimeterReturnSum</span>
+                <span class="method-start">51 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
